@@ -1,8 +1,8 @@
 /*login page styles*/
 
 @font-face {
-	font-family:'athena' ;
-	src: url(fonts/sclate/Sclate.tft);
+	font-family:'inf' ;
+	src: url(fonts/Infinite.ttf);
 }
 @keyframes slideInFromLeft {
     0% {
@@ -47,7 +47,7 @@
 .logo a{
     color: #ff7200;
 	font-size: 58px;
-	font-family: athena;
+	font-family: inf;
 	padding-left: 10PX;
 	float: left;
 	padding-top: 10px;
@@ -277,22 +277,34 @@ input[type=submit]{
     text-align: left;
     padding: 20px;
     z-index: 1000;
-}
-
-.social-media-icons{
-    margin-right: 150px;
-}
-
-.social-media-icons a img {
-    width: 30px; 
-    height: 30px; 
-    margin-left: 15px;
+  }
+  
+  .footer p{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  
+  .social-media-icons{
+    margin-left: 60px;
+  }
+  
+  .social-media-icons a img {
+    width: 50px; 
+    height: 50px; 
+    margin-right: 25px;
     
-}
-
-.social-media-icons a img:hover {
+  }
+  
+  .social-media-icons a img:hover {
     opacity: 0.7;
-}
-
+  }
+  
+  .logo2{
+    opacity: 0.7;
+    margin-left: 30px;
+  }
+  
+  
 
 
