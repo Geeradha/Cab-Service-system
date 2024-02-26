@@ -1,0 +1,57 @@
+@font-face {
+	font-family: inf;
+	src: url(fonts/Infinite.ttf);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;   
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(pics/background.png);
+    background-size: cover;
+
+
+}
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1 {
+    color: #dc7024;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.btn {
+    display: inline-block;
+    padding: 20px 40px;
+    margin: 10px;
+    border: none;
+    background-color: #0a0b0b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: #cc6f28;
+}
+.logo{
+    color: #ff7200;
+	font-size: 58px;
+	font-family: inf;
+	padding-top: 10px;
+	font-weight: 900;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+}
+.logo :hover
+{ 
+    transform: scale(1.1);
+    transition-delay: 20ms;
+}
