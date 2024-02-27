@@ -24,7 +24,7 @@ if(isset($_SESSION['username'])) {
         
         $update_sql = "UPDATE login SET role='driver' WHERE username='$username' and password ='$password'";
         if($conn->query($update_sql) === TRUE) {
-            header("Location: Registration.html");
+            header header("Location: ../home/index.php");;
         } else {
             echo "Error updating role:". $conn->error;
         }

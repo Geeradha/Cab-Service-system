@@ -78,11 +78,11 @@
                 <label for="where">Where to go:</label>
                 <div>
                     <input type="radio" id="city" name="location" value="Inside Colombo" required>
-                    <label for="city" style="padding-left: 13px;">Inside Colombo</label>
+                    <label for="Inside Colombo" style="padding-left: 13px;">Inside Colombo</label>
                 </div>
                 <div>
                     <input type="radio" id="out" name="location" value="Outside Colombo" required>
-                    <label for="out" style="padding-left: 15px;">Outside Colombo</label>
+                    <label for="Outside Colombo" style="padding-left: 15px;">Outside Colombo</label>
                 </div>
             </div>
             <button type="submit" class="button">Book Now</button>
@@ -97,11 +97,11 @@
         </div>
 
         <div class="footercontent1">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="">Want to be a driver?</a></li>
-                <li><a href="">Book cab now</a></li> 
-                <li><a href="">Book cab for later</a></li>
+        <ul>
+                <li><a href="..\home\index.php">Home</a></li>
+                <li><a href="..\booking\index_wanttobedriver.php">Want to be a driver?</a></li>
+                <li><a href="..\booking\index_bookfornow.php">Book cab now</a></li> 
+                <li><a href="..\booking\index_bookforlater.php">Book cab for later</a></li>
             </ul>
         </div>
         <div class="bottom">

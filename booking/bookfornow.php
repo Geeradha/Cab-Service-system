@@ -13,7 +13,7 @@ $sql1 = "INSERT INTO bookfornow(name,phone,vehicletype,type,city) VALUES('$name'
 
 
 if($conn->query($sql1) === TRUE){
-    header("Location: Registration.html");
+    header("Location: ../home/index.php");
 }
 else{
     echo "Error:". $conn->error;

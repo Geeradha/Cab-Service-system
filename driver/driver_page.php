@@ -150,11 +150,11 @@ $conn->close();
         </div>
 
         <div class="footercontent1">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="">Want to be a driver?</a></li>
-                <li><a href="">Book cab now</a></li> 
-                <li><a href="">Book cab for later</a></li>
+        <ul>
+                <li><a href="..\home\index.php">Home</a></li>
+                <li><a href="..\booking\index_wanttobedriver.php">Want to be a driver?</a></li>
+                <li><a href="..\booking\index_bookfornow.php">Book cab now</a></li> 
+                <li><a href="..\booking\index_bookforlater.php">Book cab for later</a></li>
             </ul>
         </div>
         <div class="bottom">

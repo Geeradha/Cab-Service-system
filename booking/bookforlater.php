@@ -15,7 +15,7 @@ $sql1 = "INSERT INTO bookforlater(name,phone,vehicletype,type,date,time,city) VA
 
 
 if($conn->query($sql1) === TRUE){
-    header("Location: Registration.html");
+    header("Location: ../home/index.php");
 }
 else{
     echo "Error:". $conn->error;

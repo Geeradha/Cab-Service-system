@@ -31,7 +31,7 @@ function check_credentials($username, $password, $role, $conn) {
             exit;
         }
         else{
-            header("Location: ../home/index.phpp");
+            header("Location: ../home/index.php");
             $_SESSION['username'] = $username;
             $_SESSION['password'] = $password;
             exit;

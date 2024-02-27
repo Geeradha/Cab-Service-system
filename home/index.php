@@ -42,7 +42,7 @@ $username = $_SESSION['username'];
                     </div>
                 </li>
             </ul>
-
+            
         </nav>
     </div>
     <div class="lambo">
@@ -52,7 +52,8 @@ $username = $_SESSION['username'];
         <div class="image1">
             <img src="pics/image1.png">
         </div>
-    <h2 class="content1">OUR SERVICES</h2>
+
+        <h2 class="content1">OUR SERVICES</h2>
 
        <div class="content2"> FIND VEHICLES FOR YOUR LUXURY  PRIVATE
         TRANSPORTATION</div>
@@ -65,6 +66,7 @@ $username = $_SESSION['username'];
 
         <div class="content5"> HOURLY AND DAILY SERVICE</div>
         <div class="content6">LONG DISTANCE SERVICE</div>
+
        
 
     </div>
@@ -72,16 +74,17 @@ $username = $_SESSION['username'];
     <section class="main2" id="a">
         <div class="header1">
             <h1>LOOKING FOR A CAB ?</h1>
-        </div>
+        
         <div class="buttons">
-            <a href="#" class="button">Book for Now</a>
-            <a href="#" class="button">Book for Later</a>
+        <a href="..\booking\index_bookfornow.php" class="button">Book for Now</a>
+        <a href="../booking/index_bookforlater.php" class="button">Book for later</a>
         </div>
+    
         <div class="header2">
             <h1>WANT TO BE A DRIVER?</h1>
         </div>
-        <div class="buttons2">
-            <a href="#" class="button">Apply Now</a>
+        <div class="buttons">
+            <a href="..\booking\index_wanttobedriver.php" class="button" type="button">Apply Now</a>
         </div>
         <div class="image">
             <img src="pics/image7.png" alt="Driver Image">
@@ -134,9 +137,9 @@ $username = $_SESSION['username'];
         <div class="footercontent1">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="">Want to be a driver?</a></li>
-                <li><a href="">Book cab now</a></li> 
-                <li><a href="">Book cab for later</a></li>
+                <li><a href="..\booking\index_wanttobedriver.php">Want to be a driver?</a></li>
+                <li><a href="..\booking\index_bookfornow.php">Book cab now</a></li> 
+                <li><a href="..\booking\index_bookforlater.php">Book cab for later</a></li>
             </ul>
         </div>
         <div class="bottom">
